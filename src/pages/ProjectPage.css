@@ -1,0 +1,18 @@
+/* src/pages/ProjectPage.css */
+.project-page {
+  padding: 4rem;
+  min-height: 100vh;
+  color: var(--text-color);
+  background: var(--bg-color);
+  backdrop-filter: blur(8px);
+}
+
+.project-page h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.project-page p {
+  font-size: 1.1rem;
+  max-width: 700px;
+}

@@ -1,0 +1,53 @@
+/* src/components/Sidebar.css */
+.sidebar {
+  width: 120px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: var(--bg-color); /* use same bg variable */
+  transition: background-color 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  z-index: 1000;
+  font-family: 'Outfit', sans-serif;
+}
+
+.logo {
+  font-size: 2rem;
+  margin-left: 4rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  padding-right: 2rem;
+  color: var(--text-color); /* ✅ theme-based color */
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.nav a {
+  color: var(--text-color); /* ✅ dynamic */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.nav a:hover {
+  color: var(--accent-color); /* ✅ hover color also dynamic */
+}
+
+.icons span {
+  font-size: 1.2rem;
+  color: var(--text-color); /* ✅ icon color dynamic */
+  margin: 0.5rem 0;
+  cursor: pointer;
+}

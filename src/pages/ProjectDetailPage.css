@@ -1,0 +1,248 @@
+
+.project-detail {
+  padding: 4rem 6rem 6rem;
+  color: var(--text-color);
+  backdrop-filter: blur(16px);
+  background: transparent;
+  box-sizing: border-box;
+  min-height: 100vh;
+  height: auto;
+  scroll-margin-top: 7rem;
+  position: relative;
+  
+  
+}
+
+/* ... rest of your styles (unchanged) */
+
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--accent-color);
+  padding-bottom: 1rem;
+}
+
+.project-header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.project-header .category {
+  font-size: 1.1rem;
+  color: var(--accent-color);
+  margin-top: 0.5rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.github-btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1.5px solid var(--accent-color);
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.github-btn:hover {
+  background-color: var(--accent-color);
+  color: #fff;
+}
+
+.live-demo-btn {
+  background: var(--accent-color);
+  color: #000;
+  font-weight: bold;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.3s ease, background 0.3s;
+}
+
+
+
+.live-demo-btn:hover {
+  transform: scale(1.05);
+  background: #00ffff;
+}
+
+
+body.light-mode .live-demo-btn {
+  background: var(--accent-color);
+  color: #ffffff; /* keep if you want contrast, or change to #fff for full dark mode */
+  font-weight: bold;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.3s ease, background 0.3s;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.2);
+}
+
+body.light-mode .live-demo-btn:hover {
+  transform: scale(1.05);
+  background: black;
+  color: #00ffff;
+}
+
+
+
+.section-block {
+  margin-top: 2.5rem;
+}
+
+.section-block h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+  color: var(--accent-color);
+}
+
+.section-block p {
+  font-size: 1.05rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.tech-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.tech-list li {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  backdrop-filter: blur(8px);
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.image-row img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 0.8rem;
+  border: 1px solid rgba(0, 255, 255, 0.15);
+  box-shadow: 0 6px 18px rgba(0, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.image-row img:hover {
+  transform: scale(1.03);
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.back-btn,
+.hire-btn {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.8rem 1.4rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.back-btn {
+  background: transparent;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.back-btn:hover {
+  background: var(--accent-color);
+  color: #000;
+}
+
+.hire-btn {
+  background: var(--accent-color);
+  color: #000;
+}
+
+body.light-mode  .hire-btn {
+  background: var(--accent-color);
+  color: #ffffff;
+}
+
+body.light-mode .hire-btn:hover {
+  background: #000000;
+  color: #00ffff;
+}
+
+.hire-btn:hover {
+  background: #00ffff;
+}
+
+/* Light mode */
+body.light-mode .tech-list li {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+body.light-mode .image-row img {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .back-btn {
+  color: #111;
+  border-color: #111;
+}
+
+body.light-mode .back-btn:hover {
+  background: #111;
+  color: #fff;
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .project-detail {
+    padding: 5rem 1.5rem 3rem;
+  }
+
+  .project-header h1 {
+    font-size: 2rem;
+  }
+
+  .tech-list {
+    justify-content: center;
+  }
+
+  .project-links {
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: flex-start;
+    margin-top: 1rem;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

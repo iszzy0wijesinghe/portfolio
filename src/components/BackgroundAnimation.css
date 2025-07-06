@@ -1,0 +1,56 @@
+.gradient-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  transition: background 0.4s ease;
+}
+
+.gradient-background.dark {
+  background: #000000;
+}
+
+.gradient-background.light {
+  background: linear-gradient(to bottom right, #cbcbcb, #ffffffb2);
+}
+
+.gradient-shape {
+  position: absolute;
+  border-radius: 50%;
+  animation-name: floatAround;
+  animation-duration: calc(10s + (random() * 5s));
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  pointer-events: none;
+  filter: blur(80px);
+  will-change: transform;
+}
+
+/* DARK MODE */
+.gradient-background.dark .gradient-shape {
+  background: radial-gradient(circle, #00ffff, #0099ff, transparent 60%);
+  mix-blend-mode: screen;
+  opacity: 0.6;
+}
+
+/* LIGHT MODE */
+.gradient-background.light .gradient-shape {
+  background: radial-gradient(circle, #00b7ff, #0077cc, transparent 60%);
+  mix-blend-mode: multiply;
+  opacity: 0.4;
+}
+
+/* Active, wavy floating animation */
+@keyframes floatAround {
+  0%   { transform: translate(0px, 0px) scale(1); }
+  20%  { transform: translate(80px, -60px) scale(1.2); }
+  40%  { transform: translate(-100px, 90px) scale(0.9); }
+  60%  { transform: translate(120px, -40px) scale(1.1); }
+  80%  { transform: translate(-80px, -100px) scale(1.05); }
+  100% { transform: translate(60px, 50px) scale(1); }
+}
