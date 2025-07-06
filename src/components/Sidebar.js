@@ -13,9 +13,7 @@ const Sidebar = () => {
         <a href="#contact">Contact</a>
       </nav>
       <div className="icons">
-        <span>🦋</span>
-        <span>⚙️</span>
-        <span>🐱</span>
+        
       </div>
     </aside>
   );
