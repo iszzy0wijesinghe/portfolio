@@ -9,11 +9,21 @@ const Sidebar = () => {
       <nav className="nav">
         <a href="#hero">Welcome</a>
         <a href="#projects">Projects</a>
-        <a href="#about">Details</a>
+        <a href="#about" onClick={() => {
+          setTimeout(() => {
+            const aboutSection = document.getElementById("about");
+            if (aboutSection) {
+              aboutSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }, 0);
+        }}>
+          Details
+        </a>
+
         <a href="#contact">Contact</a>
       </nav>
       <div className="icons">
-        
+
       </div>
     </aside>
   );
