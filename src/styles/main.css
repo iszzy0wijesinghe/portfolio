@@ -99,3 +99,75 @@ body::-webkit-scrollbar,
   opacity: 1;
   pointer-events: none;
 }
+
+/* 🌐 Responsive Layout Fixes */
+@media (max-width: 768px) {
+  .sections {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .section {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 1.5rem;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: -4rem;
+    margin-left: 2rem;
+  }
+
+  .project-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .projects-container {
+    padding: 1rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .project-title {
+    font-size: 1.3rem;
+  }
+
+  .project-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .project-desc {
+    font-size: 0.9rem;
+  }
+
+  .project-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  h1 {
+    font-size: 2.2rem !important;
+    line-height: 1.4;
+  }
+
+  span[style*="font-size: 2.5rem"] {
+    font-size: 1.3rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 2rem 2rem;
+    margin-top: 2rem;
+    margin-bottom: -3rem;
+    margin-left: 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem !important;
+  }
+
+  span[style*="font-size: 2.5rem"] {
+    font-size: 1.1rem !important;
+  }
+}

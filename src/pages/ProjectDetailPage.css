@@ -223,7 +223,35 @@ body.light-mode .back-btn:hover {
 /* Responsive */
 @media (max-width: 768px) {
   .project-detail {
-    padding: 5rem 1.5rem 3rem;
+    /* padding: 6rem 1.5rem 3rem; */
+  }
+
+  .project-header h1 {
+    font-size: 2rem;
+  }
+
+  .tech-list {
+    justify-content: center;
+  }
+
+  .project-links {
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: flex-start;
+    margin-top: 1rem;
+  }
+
+  .nav-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  .project-detail {
+    padding: 7rem 1.5rem 6rem;
   }
 
   .project-header h1 {
