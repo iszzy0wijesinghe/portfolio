@@ -251,7 +251,7 @@ body.light-mode .back-btn:hover {
 
 @media (max-width: 480px) {
   .project-detail {
-    padding: 4rem 1.5rem 6rem;
+    padding: 2rem 1.5rem 6rem;
   }
 
   .project-header h1 {
