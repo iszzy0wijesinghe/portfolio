@@ -31,11 +31,11 @@ const projectData = {
         ],
     },
     2: {
-        title: 'AI Art Studio',
-        category: 'Creative AI Tool',
-        githubRepo: 'https://github.com/yourusername/ai-art-studio',
-        liveDemo: '#',
-        techStack: ['React', 'TensorFlow.js', 'Styled Components'],
+        title: 'MotionChat',
+        category: 'Realtime customer support agent chat platform',
+        githubRepo: 'https://github.com/iszzy0wijesinghe/motion-chat',
+        liveDemo: 'https://motion-chat.vercel.app',
+        techStack: ['React', 'TensorFlow.js', 'Styled Components','socket.io'],
         problem: 'Customer wanted a browser-based tool for generating AI art using custom-trained models.',
         description:
             'This app uses TensorFlow.js to generate artwork in-browser with no server-side ML. React handled routing and UI logic, and Styled Components ensured theme consistency.',
