@@ -19,7 +19,7 @@ const projects = [
     subtitle: 'Chat Support System',
     description: 'Crfating chat agent support with powerfull features and richness of reliability.',
     
-    status: 'Ongoing',
+    status: 'Completed',
   },
   {
     id: 3,
