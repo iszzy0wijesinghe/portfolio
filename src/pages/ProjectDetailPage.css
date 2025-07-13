@@ -137,7 +137,7 @@ body.light-mode .live-demo-btn:hover {
 
 .image-row img {
   width: 100%;
-  max-width: 600px;
+  
   border-radius: 0.8rem;
   border: 1px solid rgba(0, 255, 255, 0.15);
   box-shadow: 0 6px 18px rgba(0, 255, 255, 0.1);
@@ -218,6 +218,43 @@ body.light-mode .back-btn:hover {
   color: #fff;
 }
 
+
+.project-highlights-section {
+    padding: 2rem;
+    border-radius: 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 2rem;
+}
+
+.project-highlights-section h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.highlight-list {
+    list-style: none;
+    padding: 0;
+}
+
+.highlight-point {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--text-color);
+}
+
+.highlight-point::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+    font-weight: bold;
+}
 
 
 /* Responsive */
