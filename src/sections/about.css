@@ -81,6 +81,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 1rem;
+  
+
 }
 
 .skill-card {
@@ -170,8 +172,10 @@
 
   .about-skills-wrapper {
     padding: 0 1.5rem;
-    margin-top: 2rem;
-    width: 90%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
   }
 
   .skills-grid {
