@@ -23,25 +23,25 @@ const projects = [
   },
   {
     id: 3,
-    title: 'FinanceTracker',
+    title: 'FinanceTracker - android application',
     subtitle: 'Finance Tracking System',
-    description: 'A futuristic portfolio platform with 3D & motion.',
-    status: 'Pending',
-  },
-  {
-    id: 4,
-    title: 'MovieBrowser',
-    subtitle: 'Video Browsing System',
-    description: 'A futuristic portfolio platform with 3D & motion.',
+    description: 'Futuristic well organized analytical finance managing android application built with flutter',
     status: 'Ongoing',
   },
   {
-    id: 5,
-    title: 'Iszzy',
-    subtitle: 'Premium Portfolio',
-    description: 'A futuristic portfolio platform with 3D & motion.',
+    id: 4,
+    title: 'CashFlow - android application',
+    subtitle: 'Finance Management system',
+    description: 'Education purpose android application developed with java and cotlin',
     status: 'Completed',
   },
+  // {
+  //   id: 5,
+  //   title: 'Iszzy',
+  //   subtitle: 'Premium Portfolio',
+  //   description: 'A futuristic portfolio platform with 3D & motion.',
+  //   status: 'Completed',
+  // },
 ];
 
 
