@@ -35,13 +35,20 @@ const projects = [
     description: 'Education purpose android application developed with java and cotlin',
     status: 'Completed',
   },
-  // {
-  //   id: 5,
-  //   title: 'Iszzy',
-  //   subtitle: 'Premium Portfolio',
-  //   description: 'A futuristic portfolio platform with 3D & motion.',
-  //   status: 'Completed',
-  // },
+  {
+    id: 5,
+    title: 'WellSpring',
+    subtitle: 'Wellness Management Application',
+    description: 'UI design for premium application using Simple & calm uis.',
+    status: 'Completed',
+  },
+  {
+    id: 6,
+    title: 'Iszzy',
+    subtitle: 'Premium Portfolio',
+    description: 'A futuristic portfolio platform with 3D & motion.',
+    status: 'Completed',
+  },
 ];
 
 

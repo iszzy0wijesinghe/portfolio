@@ -20,7 +20,7 @@ const Sidebar = () => {
           Details
         </a>
 
-        <a href="/#contact">Contact</a>
+        
       </nav>
       <div className="icons">
 

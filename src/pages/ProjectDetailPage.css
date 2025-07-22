@@ -9,6 +9,8 @@
   height: auto;
   scroll-margin-top: 7rem;
   position: relative;
+  z-index: 0; 
+  padding-left: 80px;
   
   
 }

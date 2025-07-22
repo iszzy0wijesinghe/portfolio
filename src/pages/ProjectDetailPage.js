@@ -156,35 +156,72 @@ const projectData = {
     ],
     
   },
-  // 5: {
-  //   title: "MotionHub",
-  //   category: "Portfolio Engine",
-  //   githubRepo: "https://github.com/yourusername/motionhub",
-  //   liveDemo: "#",
-  //   techStack: ["React", "Three.js", "Socket.io"],
-  //   problem:
-  //     "Client needed a futuristic animated portfolio with real-time elements and stunning visuals.",
-  //   description:
-  //     "This project combines React and Three.js to deliver a smooth 3D portfolio site. Real-time updates handled using Socket.io. Dark/light theme with parallax stars, animated planet, and code-structured modules.",
-  //   highlights: [
-  //     "Secure shop owner login using 16-digit OTP verification via email",
-  //     "Real-time delivery personnel registration, deletion, and performance tracking",
-  //     "Role-based dashboard for shop owners with advanced analytics and reports",
-  //     "Location-restricted access control — only registered shop locations can log in",
-  //     "Fully responsive, clean UI built with React.js and modular component design",
-  //     "Backend built with Express.js and MongoDB to ensure scalability and performance",
-  //     "Optimized delivery route and order handling through smart logic integration",
-  //     "Collaborative team development using Git and modular project structure",
-  //   ],
-  //   uiImages: [
-  //     "https://via.placeholder.com/400x250?text=Motion+UI+1",
-  //     "https://via.placeholder.com/400x250?text=Motion+UI+2",
-  //   ],
-  //   structureImages: [
-  //     "https://via.placeholder.com/400x250?text=Motion+Code+1",
-  //     "https://via.placeholder.com/400x250?text=Motion+Code+2",
-  //   ],
-  // },
+  5: {
+    title: "WellSprint - UI Design",
+    category: "Wellness Management Application",
+    githubRepo: "https://www.figma.com/design/fT7dR8tg45WkxBcu6LH35q/Untitled?node-id=0-1&t=1raTAJFyHGQ3B9AT-1",
+    liveDemo: "https://www.figma.com/proto/fT7dR8tg45WkxBcu6LH35q/Untitled?node-id=0-1&t=1raTAJFyHGQ3B9AT-1",
+    techStack: ["Figma","Adobe Photoshop","Adobe Illustrator"],
+    problem:
+      "Client needed a modern, wellness-focused UI for a management application that supports animated visuals, real-time features, and a smooth, futuristic user experience across devices.",
+    description:
+      "This project features a clean, animated UI for a Wellness Management System, designed in Figma with responsiveness and accessibility in mind. The UI integrates futuristic elements like microinteractions and modular layout components. It supports wellness staff, service bookings, user tracking, and personalized dashboards.",
+    highlights: [
+      "Appointment booking and session management flows",
+      "Secure login flow with email-based OTP verification",
+      "Modular Figma components for reusability across multiple screens",
+      "Simple premium Ui design for more relax and motivational mind",
+      "Specific modes for track activities (Eg : Meditation Mode, Sleep Mode)",
+      "Anmation used for every single operations for feel process progress to user",
+    ],
+    uiImages: [
+      "https://res.cloudinary.com/dfejydorr/image/upload/v1753204515/New_Project_9_r3meyk.png",
+      "https://res.cloudinary.com/dfejydorr/image/upload/v1753204866/New_Project_10_gmt6ik.png",
+      "https://res.cloudinary.com/dfejydorr/image/upload/v1753204972/New_Project_11_va6nml.png",
+      "https://res.cloudinary.com/dfejydorr/image/upload/v1753205067/New_Project_12_nyxris.png",
+      "https://res.cloudinary.com/dfejydorr/image/upload/v1753205159/New_Project_13_cn33fx.png",
+    ],
+    structureImages: [
+      "https://res.cloudinary.com/dfejydorr/image/upload/v1753204157/Screenshot_2025-07-22_at_22.37.50_ijdras.png",
+      "https://res.cloudinary.com/dfejydorr/image/upload/v1753204157/Screenshot_2025-07-22_at_22.38.15_ggu5pi.png",
+    ],
+  },
+  6: {
+  title: "Iszzy - Portfolio",
+  category: "Portfolio Website",
+  githubRepo: "https://github.com/iszzy0wijesinghe/portfolio.git",
+  liveDemo: "https://portfolio-ten-navy-72.vercel.app/",
+  techStack: ["React", "Three.js", "Socket.io", "Framer Motion"],
+  problem:
+    "Client needed a futuristic, animated portfolio to showcase skills with real-time elements, smooth transitions, and a highly visual 3D background aesthetic.",
+  description:
+    "MotionHub is a next-generation animated portfolio engine built using React and Three.js. It features a 3D glassmorphism design language, real-time-ready structure via Socket.io, and a modular architecture that enables smooth navigation, interactive UI components, and dynamic content rendering. Designed to leave a strong visual impression while remaining fully responsive and performance-optimized.",
+  highlights: [
+    "3D glass-style UI components layered with depth and lighting effects",
+    "Animated 3D background patterns generated via Three.js for a futuristic theme",
+    "Dark/light mode toggle with persistent theme memory",
+    "Framer Motion-powered page transitions and element animations",
+    "Fully responsive layout with sidebar navigation and smooth scroll behavior",
+    "Modular project pages with structured tech stack, live demo, and code previews",
+    "Realtime-ready structure via integrated Socket.io (for future enhancements)",
+    "Designed with scalability, reusability, and visual storytelling in mind"
+  ],
+  uiImages: [
+    "https://res.cloudinary.com/dfejydorr/image/upload/v1753206086/Screenshot_2025-07-22_at_23.04.55_v9ppft.png",
+    "https://res.cloudinary.com/dfejydorr/image/upload/v1753206090/Screenshot_2025-07-22_at_23.05.07_zsfzsf.png",
+    "https://res.cloudinary.com/dfejydorr/image/upload/v1753206086/Screenshot_2025-07-22_at_23.06.35_kbx3ps.png",
+    "https://res.cloudinary.com/dfejydorr/image/upload/v1753206092/Screenshot_2025-07-22_at_23.05.36_rlsx6k.png",
+    "https://res.cloudinary.com/dfejydorr/image/upload/v1753206098/Screenshot_2025-07-22_at_23.06.54_jqhrdp.png",
+    "https://res.cloudinary.com/dfejydorr/image/upload/v1753206098/Screenshot_2025-07-22_at_23.07.07_k560cw.png",
+    "https://res.cloudinary.com/dfejydorr/image/upload/v1753206086/Screenshot_2025-07-22_at_23.07.33_lzfviw.png",
+    "https://res.cloudinary.com/dfejydorr/image/upload/v1753206090/Screenshot_2025-07-22_at_23.07.42_el6qaq.png",
+    
+  ],
+  structureImages: [
+    "https://res.cloudinary.com/dfejydorr/image/upload/v1753206382/Screenshot_2025-07-22_at_23.15.57_vcxk1z.png",
+    
+  ],
+},
 };
 
 const ProjectDetailPage = () => {
