@@ -7,9 +7,9 @@ const Sidebar = () => {
     <aside className="sidebar">
       <div className="logo">iszzy.</div>
       <nav className="nav">
-        <a href="#hero">Welcome</a>
-        <a href="#projects">Projects</a>
-        <a href="#about" onClick={() => {
+        <a href="/#hero">Welcome</a>
+        <a href="/#projects">Projects</a>
+        <a href="/#about" onClick={() => {
           setTimeout(() => {
             const aboutSection = document.getElementById("about");
             if (aboutSection) {
@@ -20,7 +20,7 @@ const Sidebar = () => {
           Details
         </a>
 
-        <a href="#contact">Contact</a>
+        <a href="/#contact">Contact</a>
       </nav>
       <div className="icons">
 
